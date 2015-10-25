@@ -1,0 +1,6 @@
+web:
+  image: curtismitchell/nodejs
+  ports:
+    - "8080:8080"
+  volumes:
+    - .:/src
